@@ -1,7 +1,27 @@
-body {
+.body,
+.list,
+.header {
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #36453b;
 }
+
+.header,
+.list {
+    color: #596869;
+    background-color: #F5F9E9;
+}
+.header {
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+.list
+{
+    font-size: 22pt;
+}
+
 img {
-    width: 600px;
+    width: 700px;
     height:auto;
 }
