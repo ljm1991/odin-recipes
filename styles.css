@@ -2,6 +2,10 @@
 .list,
 .header {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body,
+header {
     background-color: #36453b;
     text-align: center;
 }
@@ -13,7 +17,7 @@
 }
 
 .header {
-    font-size: 40pt;
+    font-size: 48pt;
     font-weight: bold;
 }
 
@@ -26,4 +30,22 @@
 img {
     width: 60%;
     height:auto;
+}
+
+.ingredients,
+.description,
+.equipment,
+.steps {
+    font-size:36pt;
+    font-weight:bold;
+    color:#36453B;
+}
+
+.pagelist {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.4em;
+    color: #596869;
+    background-color: #F5F9E9;
+    text-align:justify;
 }
